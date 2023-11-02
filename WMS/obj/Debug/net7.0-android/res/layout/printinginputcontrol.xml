@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".LinearLayout"
+    android:foregroundGravity="center">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="Tiskanje - vhodna kontrola"
+        android:textColor="@color/rikoMain"
+        android:id="@+id/lbInfo" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            android:text="Datum" />
+
+        <EditText
+
+          android:textStyle="bold"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="0.50"
+  android:paddingTop="5dp"
+  android:background="@drawable/editText_bg_grey"
+  android:layout_marginRight="2dp" 
+            android:id="@+id/dtDate" />
+
+        <Button
+            android:text="Izberi"
+           android:layout_width="wrap_content"
+ android:layout_height="match_parent"
+ android:layout_marginTop="0dp"
+ android:background="@color/rikoMain"
+ android:textColor="@color/white"
+ android:layout_marginLeft="4dp"
+
+            android:id="@+id/dateChoice" 
+            android:layout_marginRight="2dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+                                     >
+
+        <TextView
+    
+android:text="Uporabnik"
+android:textStyle="bold"
+android:layout_width="100dp"
+android:layout_height="match_parent"
+android:gravity="bottom"
+android:paddingLeft="4dp"
+android:paddingTop="4dp"
+android:id="@+id/textView1" />
+
+        <EditText
+  android:textStyle="bold"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="0.50"
+  android:paddingTop="5dp"
+  android:background="@drawable/editText_bg_grey"
+  android:layout_marginRight="2dp"  
+  
+            android:id="@+id/tbUser" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+           android:textStyle="bold"
+android:layout_width="130dp"
+android:layout_height="match_parent"
+android:gravity="bottom"
+android:paddingLeft="4dp"
+android:paddingTop="4dp"
+            android:text="Vhodna kontrola"
+
+            android:id="@+id/lbInfoinput" 
+            android:textColor="@color/rikoMain"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+                                     >
+
+        <TextView
+            
+            android:text="Prevzem"
+           android:textStyle="bold"
+android:layout_width="100dp"
+android:layout_height="match_parent"
+android:gravity="bottom"
+android:paddingLeft="4dp"
+android:paddingTop="4dp"/>
+
+        <EditText
+  android:textStyle="bold"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="0.50"
+  android:paddingTop="5dp"
+  android:background="@drawable/editText_bg_grey"
+  android:layout_marginRight="2dp"  
+            android:id="@+id/tbTakeOver" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+
+   android:textStyle="bold"
+android:layout_width="100dp"
+android:layout_height="match_parent"
+android:gravity="bottom"
+android:paddingLeft="4dp"
+android:paddingTop="4dp"
+
+            android:text="Dobavitelj" />
+
+        <EditText
+
+      android:textStyle="bold"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="0.50"
+  android:paddingTop="5dp"
+  android:background="@drawable/editText_bg_grey"
+  android:layout_marginRight="2dp"  
+            android:id="@+id/tbSupplier" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingTop="5dp"
+            android:text="Datum prevzema" />
+
+        <EditText
+      android:textStyle="bold"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="0.50"
+  android:paddingTop="5dp"
+  android:background="@drawable/editText_bg_grey"
+  android:layout_marginRight="2dp"  
+            android:id="@+id/tbTakeOverDate" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="119.5dp"
+        android:layout_height="1.5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"/>
+    <TextView android:layout_height="0dip" 
+          android:layout_width="fill_parent"
+          android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:paddingTop="5dp">
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+          android:layout_marginBottom="4dp"   >
+
+        <Button
+         android:layout_weight="1"
+android:textSize="20dp"
+android:paddingLeft="10dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/rikoMain"
+android:textColor="@color/white"
+android:layout_marginLeft="4dp"
+android:layout_marginRight="2dp"
+            android:text="Nasled. - F2"
+            android:drawableLeft="@drawable/next_white"
+
+            android:id="@+id/btNext" />
+
+        <Button
+            android:layout_weight="1"
+android:textSize="20dp"
+android:paddingLeft="10dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/rikoMain"
+android:textColor="@color/white"
+android:layout_marginLeft="2dp"
+android:layout_marginRight="4dp"
+            android:text="Tiskaj - F3"
+            android:drawableLeft="@drawable/printer_white"
+     
+            android:id="@+id/btPrint" />
+
+
+    </LinearLayout>
+    <Button
+android:text="Izhod - F8"
+android:layout_width="match_parent"
+android:layout_weight="1"
+android:textSize="20dp"
+android:paddingLeft="10dp"
+android:layout_height="match_parent"
+android:background="@color/rikoMain"
+android:textColor="@color/white"
+android:layout_marginLeft="4dp"
+android:layout_marginRight="4dp"
+android:drawableLeft="@drawable/logout_white"
+android:id="@+id/button3"
+android:layout_marginBottom="4.0dp" />
+
+</LinearLayout>
+</LinearLayout>

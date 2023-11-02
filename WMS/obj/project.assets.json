@@ -1,0 +1,559 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-android33.0": {
+      "Microsoft.AppCenter/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net7.0-android33.0/android-arm": {
+      "Microsoft.AppCenter/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net7.0-android33.0/android-arm64": {
+      "Microsoft.AppCenter/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net7.0-android33.0/android-x64": {
+      "Microsoft.AppCenter/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net7.0-android33.0/android-x86": {
+      "Microsoft.AppCenter/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.3"
+        },
+        "compile": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AppCenter/5.0.3": {
+      "sha512": "5WizAr5oDDZtZlpeotbu2kB6UGVXKkk7NtAHMFqOP8kvc8JuMY261einCcgUlsm6kByk3umoS/6YP3n+VMDzAw==",
+      "type": "package",
+      "path": "microsoft.appcenter/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net462/Microsoft.AppCenter.dll",
+        "lib/net462/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/appcenter-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.5.0.3.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/5.0.3": {
+      "sha512": "SMkyXlmkwImUfqdElJKkc+33bHAswgNOCu8Iu8fSFCgNjxvuKran0QSsIBlWzBxPRlRBvjq08Z/ukg02bXBezg==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net462/Microsoft.AppCenter.Analytics.dll",
+        "lib/net462/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/appcenter-analytics-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.5.0.3.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/5.0.3": {
+      "sha512": "yJfl71WnWIyQN2+MyBZjhZ9LEoYhbax2QZhX3yXzPHy8ZrAIVXCmKFlT5XrA34PcG75spj8kc39nGtYyxlozEQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net462/Microsoft.AppCenter.Crashes.dll",
+        "lib/net462/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/appcenter-crashes-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.5.0.3.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Distribute/5.0.3": {
+      "sha512": "Ohminum4zmCAXyCjXdzs6w5+PHWflb00BdidUOAQhdLFUnUOkLOERrJhk1FxSv+xjwEx4lJSJ2kxrPtehCyykQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.distribute/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/net6.0-android29.0/appcenter-distribute-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Distribute.xml",
+        "microsoft.appcenter.distribute.5.0.3.nupkg.sha512",
+        "microsoft.appcenter.distribute.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-android33.0": [
+      "Microsoft.AppCenter >= 5.0.3",
+      "Microsoft.AppCenter.Analytics >= 5.0.3",
+      "Microsoft.AppCenter.Crashes >= 5.0.3",
+      "Microsoft.AppCenter.Distribute >= 5.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jankoj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jankoj\\Desktop\\WMS\\WMS\\WMS.csproj",
+      "projectName": "WMS",
+      "projectPath": "C:\\Users\\jankoj\\Desktop\\WMS\\WMS\\WMS.csproj",
+      "packagesPath": "C:\\Users\\jankoj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jankoj\\Desktop\\WMS\\WMS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jankoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-android"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-android33.0": {
+          "targetAlias": "net7.0-android",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-android33.0": {
+        "targetAlias": "net7.0-android",
+        "dependencies": {
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[5.0.3, )"
+          },
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[5.0.3, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[5.0.3, )"
+          },
+          "Microsoft.AppCenter.Distribute": {
+            "target": "Package",
+            "version": "[5.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.Android": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "android-arm": {
+        "#import": []
+      },
+      "android-arm64": {
+        "#import": []
+      },
+      "android-x64": {
+        "#import": []
+      },
+      "android-x86": {
+        "#import": []
+      }
+    }
+  }
+}

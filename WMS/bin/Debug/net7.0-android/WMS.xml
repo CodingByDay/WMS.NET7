@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WMS</name>
+    </assembly>
+    <members>
+        <member name="M:WMS.MainActivity.BtnRegistrationEvent_Click(System.Object,System.EventArgs)">
+            <summary>
+            First navigation event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

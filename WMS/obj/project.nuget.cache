@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SG0xJx9A+gPHtXdJpcIiRlnVsVfi5Ptl5wd92+1qkQUHKQ8b+22BTpTnWUU9DyHyZrOcHf50D1A81aPzIvre0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jankoj\\Desktop\\WMS\\WMS\\WMS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jankoj\\.nuget\\packages\\microsoft.appcenter\\5.0.3\\microsoft.appcenter.5.0.3.nupkg.sha512",
+    "C:\\Users\\jankoj\\.nuget\\packages\\microsoft.appcenter.analytics\\5.0.3\\microsoft.appcenter.analytics.5.0.3.nupkg.sha512",
+    "C:\\Users\\jankoj\\.nuget\\packages\\microsoft.appcenter.crashes\\5.0.3\\microsoft.appcenter.crashes.5.0.3.nupkg.sha512",
+    "C:\\Users\\jankoj\\.nuget\\packages\\microsoft.appcenter.distribute\\5.0.3\\microsoft.appcenter.distribute.5.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

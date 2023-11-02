@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+    
+        android:gravity="center_vertical"
+        android:src="@drawable/signature" />
+    
+    <xamarin.controls.SignaturePadView
+        android:id="@+id/signature"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_above="@+id/confirm"
+       
+        app:signatureLineColor="@android:color/black"
+        app:captionTextColor="@android:color/black"
+        app:signaturePromptText="Prosim podpišite se tukaj:"
+        app:signaturePromptTextColor="@android:color/black"
+        app:clearLabelText="Pobriši"
+        app:clearLabelTextColor="@android:color/black" />
+    
+      <Button
+        android:id="@+id/confirm"
+
+        android:text="Potrdi"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/rikoMain"
+        android:drawableLeft="@drawable/confirmation_white"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:textColor="#ffffff"/>
+        
+    
+ 
+</RelativeLayout>
+
+
+
